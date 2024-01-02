@@ -1,0 +1,11 @@
+## Distribution and Cache dirs
+docs/.vitepress/cache
+docs/.vitepress/dist
+
+## IDE
+.idea
+.fleet
+
+## 
+node_modules
+
