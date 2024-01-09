@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Blog"
+  name: "Johannes Scr"
   text: "Personal Blog"
   tagline: My great project tagline
   actions:
@@ -13,6 +13,9 @@ hero:
     - theme: alt
       text: API Examples
       link: /api-examples
+    - theme: alt
+      text: Math Examples
+      link: /math-examples
 
 features:
   - title: Feature A
