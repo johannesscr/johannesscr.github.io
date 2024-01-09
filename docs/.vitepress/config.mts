@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Johannes Scr",
+  title: "johannesscr",
   description: "Personal Blog",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -13,18 +13,27 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Finance',
+        link: '/finance',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
-          { text: 'Math Examples', link: '/math-examples' }
+          // { text: 'Finance', link: '/finance' },
+          { text: 'Future Value', link: '/finance/future-value' },
         ]
-      }
+      },
+      { text: 'References', link: '/references' },
+      // {
+      //   text: 'Vitepress Markdown Examples',
+      //   items: [
+      //     { text: 'Markdown Examples', link: '/markdown-examples' },
+      //     { text: 'Runtime API Examples', link: '/api-examples' },
+      //     { text: 'Math Examples', link: '/math-examples' }
+      //   ]
+      // }
     ],
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/johannesscr' },
-      { icon: 'x', link: 'https://github.com/johannesscr' }
+      // { icon: 'x', link: 'https://github.com/johannesscr' }
     ]
   },
   markdown: {

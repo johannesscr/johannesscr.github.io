@@ -5,24 +5,35 @@ layout: home
 hero:
   name: "Johannes Scr"
   text: "Personal Blog"
-  tagline: My great project tagline
+  tagline: My view is the hypothesis that I have lived through
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Views on Finance
+      link: /finance
+#    - theme: alt
+#      text: API Examples
+#      link: /api-examples
+#    - theme: alt
+#      text: Math Examples
+#      link: /math-examples
     - theme: alt
-      text: API Examples
-      link: /api-examples
-    - theme: alt
-      text: Math Examples
-      link: /math-examples
+      text: References 
+      link: /references
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
----
+  - title: BOAN
+    link: https://apps.apple.com/us/app/boan/id6475394431
+    details: Back of a napkin - Quick financial calculations.
 
+#  - title: Feature A
+
+#    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+
+#  - title: Feature B
+
+#    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+
+#  - title: Feature C
+
+#    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+---
