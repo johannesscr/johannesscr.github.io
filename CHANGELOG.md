@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.2] - 2024-01-10
+
+### Added
+
+- The future value was appended to include:
+  - Annual compounding.
+  - Non-annual compounding.
+
 ## [0.0.1] - 2024-01-09
 
 ### Added
